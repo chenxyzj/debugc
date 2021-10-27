@@ -4,6 +4,8 @@
     将launch.json的 "externalConsole": false,修改为：
      "externalConsole": true,
     这样在调试时，vscode会在win10中开启一个单独的命令行界面，显示结果。尽管不是显示在VSCODE集成的terminal中或者OUTPUT中或者DEBUG CONSOLE中，但勉强作为一个解决方法。
+
+    更新：在linux下没有这个问题，直接在集成的terminal中显示printf的输出结果。
 2. 解决推送到github.com报错：
 > git push -u origin master
 fatal: unable to access 'https://github.com/chenxyzj/debugc.git/': OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054
