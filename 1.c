@@ -3,7 +3,7 @@
 void main(){
     int a=5;
     float i = 100.25;
-    printf("a=%d, i=%f\n",a);
+    printf("a=%d, i=%f\n",a,i);
     printf("Hello C from VS Code.\n");
     a = (unsigned int)i;
     float *p = &i;
